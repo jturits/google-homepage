@@ -1,0 +1,133 @@
+ul {
+  font-family: Arial;
+  font-size: 10pt;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+  margin-left: 0px;
+}
+
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 24px;
+  color: #404040;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#signin {
+  border-radius: 3px;
+  border: 1px solid #a6a6a6;
+  padding: 1px;
+  width: 70px;
+  text-align: center;
+  background-color: #1f66ff;
+  color: #ffffff;
+}
+
+.button {
+  background: #4683EA;
+  box-sizing: border-box;
+  padding: .5em .75em;
+  line-height: 28px;
+  letter-spacing: normal;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.button a:hover {
+  text-decoration: none;
+  cursor: default;
+  color: white;
+}
+
+#td {
+  padding: 15px;
+  font-family: arial, sans-serif;
+}
+
+
+form {
+  top: 55%;
+  left: 23%;
+  position: fixed;
+  text-align: center;
+
+}
+
+.resizedTextbox {
+  font-size: 16px;
+  height: 26px;
+  width: 600px;
+  margin-top: 30px;
+}
+
+.submit {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #ededed;
+  font-weight: bold;
+  height: 29px;
+  line-height: 29px;
+  margin: 16px 8px;
+  color: #444;
+}
+
+#footer {
+  background-color: #dddddd;
+  height: 35px;
+  width: 100%;
+  bottom: 0%;
+  margin-right: auto;
+  margin-left: auto;
+  position: fixed;
+  font-size: 10pt;
+  padding: 8px;
+}
+
+#left_footer {
+  float: left;
+}
+
+#right_footer {
+  float: right;
+}
